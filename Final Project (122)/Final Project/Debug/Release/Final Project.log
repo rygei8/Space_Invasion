@@ -1,0 +1,25 @@
+﻿Build started 11/12/2013 10:39:18 AM.
+     1>Project "C:\Users\Ryan\Documents\PSU\CMPSC 122\Final Project\Final Project\Final Project.vcxproj" on node 2 (Rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Ryan\Documents\PSU\CMPSC 122\Final Project\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Final Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Asteroid.cpp Bullet.cpp EnemyShip.cpp main.cpp Timer.cpp UserShip.cpp Utilities.cpp
+         Asteroid.cpp
+         Bullet.cpp
+     1>c:\users\ryan\documents\psu\cmpsc 122\final project\final project\Bullet.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         EnemyShip.cpp
+         main.cpp
+     1>main.cpp(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Timer.cpp
+     1>Timer.cpp(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         UserShip.cpp
+     1>c:\users\ryan\documents\psu\cmpsc 122\final project\final project\UserShip.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Utilities.cpp
+     1>c:\users\ryan\documents\psu\cmpsc 122\final project\final project\Utilities.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+     1>Done Building Project "C:\Users\Ryan\Documents\PSU\CMPSC 122\Final Project\Final Project\Final Project.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.36
